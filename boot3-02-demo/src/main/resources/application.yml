@@ -1,0 +1,46 @@
+# application.yml和application.properties其实没有太大区别，你想用哪个用哪个。
+# yaml(yet another markup language)另一种标记语言
+# 1.k: v  注意v前面是有个空格的
+# 2.属性有层级关系，使用回车来标识层级关系
+# 3.左侧对齐表示同一层级。 有点了类似Python
+
+
+--- ##服务器配置
+server:
+  port: 9999
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  data:
+    redis:
+      port: 6379
+      host: localhost
+--- #用---表示下面是一个文档
+person:
+  #单引号 转义字符不生效，可以不加
+  name: '雷锋杨 \n 123'
+  age: 18
+  #yml里面birthDay驼峰式建议全部小写然后用 '-' 连接
+  birth-day: 2010/10/10 12:12:12
+  like: true
+  child:
+    #双引号里面转移字符会生效
+    name: "里斯 \n 456"
+    birth-day: 2020/12/12
+    text: #["abc","def"]
+      - abc
+      - def
+      #连接大文本可以用|和 >连接
+  dogs:
+    - name: 小黑
+      age: 3
+    - name: 小白
+      age: 5
+  cats:
+    c1:
+      name: 小蓝
+      age: 2
+    c2: {name: 小绿,age: 2} #对象也可以用大括号表示
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<!--thymeleaf动态渲染字符拼接的时候你用'' + 连接也行
+其实还有更方便的| |这里面的内容直接连接就可以了。${key}也一样会被认为是解析式
+-->
+<h1>哈哈:<span th:text="${msg}"></span></h1>
+<hr/>
+th:text 替换标签体的内容,会转义，标签变成普通的字符
+th:utext 替换标签体的内容，不会转义html标签，真正显示为html该有的样子
+<h1 th:text="${msg}">哈哈</h1>
+<h1 th:utext="${msg}">呵呵</h1>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot3-01-demo/boot3-01-demo.iml" filepath="$PROJECT_DIR$/boot3-01-demo/boot3-01-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot3-02-demo/boot3-02-demo.iml" filepath="$PROJECT_DIR$/boot3-02-demo/boot3-02-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot3-03-logging/boot3-03-logging.iml" filepath="$PROJECT_DIR$/boot3-03-logging/boot3-03-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot3-04-web/boot3-04-web.iml" filepath="$PROJECT_DIR$/boot3-04-web/boot3-04-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot3-05-ssm/boot3-05-ssm.iml" filepath="$PROJECT_DIR$/boot3-05-ssm/boot3-05-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot3-09-redis/boot3-09-redis.iml" filepath="$PROJECT_DIR$/boot3-09-redis/boot3-09-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot3-11-rpc/boot3-11-rpc.iml" filepath="$PROJECT_DIR$/boot3-11-rpc/boot3-11-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-3.iml" filepath="$PROJECT_DIR$/spring-boot-3.iml" />
+    </modules>
+  </component>
+</project>
